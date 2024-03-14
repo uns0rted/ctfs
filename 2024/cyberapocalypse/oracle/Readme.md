@@ -345,7 +345,7 @@ el bloque recién liberado
 // [ ... ]
 ```
 
-> Nota: debo aclarar que el bloque consolidado no es fastbin sino sería la función `malloc_consolidate` la encargada
+> Nota: debo aclarar que el bloque consolidado no es fastbin sino sería la función [`malloc_consolidate`](https://elixir.bootlin.com/glibc/glibc-2.31/source/malloc/malloc.c#L4440) la encargada
 de ese proceso
 <br>
 
@@ -426,4 +426,4 @@ una primitiva de lectura y escritura (r/w), también se puede ROPear para enviar
 
 - open(flag) -> read(flag) -> write(client_socket, flag, n)
 
-En general fue un reto entretenido con un concepto que me gustó, este fue mi [exploit]()
+En general fue un reto entretenido con un concepto que me gustó, este fue mi [exploit](https://github.com/uns0rted/ctfs/blob/main/2024/cyberapocalypse/oracle/exploit.py)

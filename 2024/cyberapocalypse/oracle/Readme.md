@@ -418,7 +418,7 @@ alojado en algún lado del mundo y la shell se ejecutaría en quién sabe donde 
 Para resolver este problema lo que hice fue redireccionar la salida y entrada estandar (STDIN y STDOUT) 
 del servidor para la conexión del socket con la syscall [dup2](https://www.man7.org/linux/man-pages/man2/dup.2.html)
 
-Y así, rompí el Oráculo y cambié el rumbo a mi favor.
+Y así rompí el Oráculo y cambié el rumbo a mi favor.
 <br><br>
 
 ## Conclusión

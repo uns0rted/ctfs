@@ -7,6 +7,7 @@
   - tl;dr
 - Análisis Estático
 - Estrategia de explotación
+- Conclusión
 <br><br>
 
 ## Introducción y descripción del desafío
